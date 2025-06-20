@@ -1,0 +1,7 @@
+Clinician: Kate Smith, Email: kate@gmail.co.uk, Medical specialty: Neurology
+Clinician: Mary Walker, Email: mary@gmail.co.uk, Medical specialty: Oncology
+Clinician: Harry Jones, Email: harry@gmail.co.uk, Medical specialty: Cardiology
+Clinician: Rishi Patel, Email: rishi@gmail.co.uk, Medical specialty: General practitioner
+Patient: Muhammad Khan, Date of birth: 1967-09-22, Hospital number: HN-12345
+Patient: Maria Rodriguez, Date of birth: 1952-04-12, Hospital number: HN-58291
+Patient: Olivia Johnson, Date of birth: 1995-10-25, Hospital number: HN-38625
