@@ -1,24 +1,77 @@
-Overview
+# Referral App
 
-This web application is built using Django for the backend server and React for the frontend client side. It serves as a platform for medical professionals allowing users to chat to each other, send referrals to each other, action those referrals and chat to an AI assistant.
+A web platform for medical professionals to chat, send and manage referrals, and consult an AI assistant. Built with **Django** (backend) and **React** (frontend).
 
-Setup Instructions
+---
 
-Backend (Django)
-Navigate to the backend directory: cd backend
-Create a virtual environment: conda create --name <env_name> --file environment.yaml
-Activate the virtual environment: conda activate <env_name>
-Install dependencies: pip install -r requirements.txt
-Run migrations: python manage.py makemigrations
-Run migrations: python manage.py migrate
-Start the Django development server: python manage.py runserver
+## Demo
 
-Frontend (React)
-Navigate to the frontend directory: cd frontend
-Install dependencies: npm install
-Start the React development server: npm start
+[![Watch the demo video](https://img.shields.io/badge/Watch%20Demo-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=ohKTMvp8NQs)
 
-Usage
-When both server are running:
-Access the backend Django admin at http://127.0.0.1:8000/.
-Access the frontend React client at http://localhost:3000/.
+<img src="demo_screenshot.png" alt="Referral App Screenshot" width="800"/>
+
+---
+
+## Features
+- Secure user authentication
+- Real-time chat between medical professionals
+- Create, send, receive, and complete patient referrals
+- AI assistant for support and queries
+- User roles (Admin, GP, Specialist, etc.)
+
+---
+
+## Setup Instructions
+
+### Backend (Django)
+1. **Navigate to the backend directory:**
+   ```bash
+   cd chat_app_backend/backend
+   ```
+2. **Create a virtual environment:**
+   ```bash
+   conda create --name <env_name> --file environment.yml
+   ```
+3. **Activate the virtual environment:**
+   ```bash
+   conda activate <env_name>
+   ```
+4. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. **Run migrations:**
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+6. **Start the Django development server:**
+   ```bash
+   python manage.py runserver
+   ```
+
+### Frontend (React)
+1. **Navigate to the frontend directory:**
+   ```bash
+   cd chat_app_frontend/frontend
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the React development server:**
+   ```bash
+   npm start
+   ```
+
+---
+
+## Usage
+- **Backend Django Admin:** [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+- **Frontend React Client:** [http://localhost:3000/](http://localhost:3000/)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
